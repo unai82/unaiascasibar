@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Georgia', serif;
+    font-family: 'Calibri', serif;
     color: #fff;
     background-color: #111;
 }
@@ -25,26 +25,22 @@ header p {
 .menu-section {
     text-align: left;
 }
-.menu-section h2 {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #ddd;
-    border-bottom: 1px solid #444;
-    padding-bottom: 0.5rem;
-}
 .menu-item {
     display: flex;
     justify-content: space-between;
     margin: 0.5rem 0;
+    border: 1px solid #a8a8a8;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 .menu-item a {
     color: #a8a8a8;
     text-decoration: none;
 }
 .menu-item a:hover {
-    text-decoration: underline;
     color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
 }
 footer {
     text-align: center;
